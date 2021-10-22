@@ -1,27 +1,61 @@
-/*
-Template Name: Zakkash
-Author: shuvo
-Version: 1.00
-
-Table of Content
-----------------
-
-1. head part
-	1.1. nav part
-	1.2. slider part
-2. about part
-3. counter part
-4. work part
-5. services part
-7. skill part
-8. team part
-9. comments  part
-10. pricing part
-11. video part
-12. bolg part
-13. client part
-14. contact part
-15. footer part
-*/
-/*Common css */
-a
+*{
+	margin: 0;
+	padding: 0;
+}
+/* commen css */
+a,h1,h2,h3,h4,h5,h6,span,ul,li{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+header{
+	z-index: 99999999;
+}
+/* banner css start */
+#banner .slider_item{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 808px;;
+} 
+/* banner css end */
+/* packageOffer css start */
+#packageOffer{
+	background-image: url(../images/img16.jpg);
+	background-position: center ;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 620px;
+}
+/* packageOffer css end */
+/* Brand css start */
+.brand_item_area{
+	background: #0791BE;
+}
+/* Brand css end */
+/* testimonial css start */
+#testimonial{
+	background-image: url(../images/img23.jpg);
+	background-position: center ;
+	background-size: cover;
+	height: 497px;
+}
+/* testimonial css start */
+/* footer css start */
+footer{
+	background-color: #383838;
+	padding-top: 80px;
+	
+}
+.top_footer{
+ color:#fff;
+}
+.buttom_footer{
+	background-color:  #404040;;
+}
+/* footer css end */
